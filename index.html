@@ -1,339 +1,593 @@
 <!DOCTYPE HTML>
-<!--
-	Dr K.F. Chu's Website
--->
 <html>
-	<head>
-		<title>Dr K.F. Chu</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<head>
+    <title>Dr Kai-Fung Chu</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
 
-		<!-- Header -->
-			<div id="header">
+<body class="is-preload">
+    <!-- Header -->
+    <div id="header">
+        <div class="top">
+            <!-- Logo -->
+            <div id="logo">
+                <h1 id="title">Dr Kai-Fung Chu</h1>
+                <p>Marie Skłodowska-Curie Fellow</p>
+            </div>
 
-				<div class="top">
+            <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    <li><a href="#top" id="top-link"><span>About me</span></a></li>
+                    <!--li><a href="#news" id="portfolio-link"><span>News</span></a></li-->
+                    <li>
+                        <a href="#research"><span>Research</span></a>
+                        <ul style="margin-left: 20px; border-left: 2px solid rgba(255,255,255,0.2); padding-left: 10px;">
+                            <li><a href="#mas" style="font-size: 0.85em; opacity: 0.8;">Multi-Agent Systems</a></li>
+                            <li><a href="#its" style="font-size: 0.85em; opacity: 0.8;">Intelligent Transportation Systems</a></li>
+                            <li><a href="#rlc" style="font-size: 0.85em; opacity: 0.8;">Robot Learning & Control</a></li>
+                            <li><a href="#prc" style="font-size: 0.85em; opacity: 0.8;">Physical Reservoir Computing</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#publications"><span>Full Publications</span></a></li>
+                    <li><a href="#teaching"><span>Teaching</span></a></li>
+                    <li><a href="#services"><span>Professional Services</span></a></li>
+                    <li><a href="#experience"><span>Experience</span></a></li>
+                    <li><a href="#awards"><span>Awards</span></a></li>
+                </ul>
+            </nav>
+        </div>
 
-					<!-- Logo -->
-						<div id="logo">
-							<h1 id="title">Dr K.F. Chu</h1>
-							<p>Marie Skłodowska-Curie Fellow</p>
-						</div>
+        <div class="bottom">
+            <ul class="icons">
+                <li><a href="https://scholar.google.com.hk/citations?user=zNQ99B0AAAAJ" class="icon brands fa-google"><span class="label">Google Scholar</span></a></li>
+                <li><a href="https://www.linkedin.com/in/kai-fung-chu-87917315a/" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
+                <li><a href="mailto:kfchu@connect.hku.hk" class="fas fa-fw fa-envelope"></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Main -->
+    <div id="main">
+        <!-- Intro -->
+        <section id="top">
+            <div class="container">
+                <header>
+                    <span class="image fit50"><img src="images/Kai-Fung Chu.jpg" alt="" /></span>
+                    <h2>Dr Kai-Fung Chu</h2>
+                    <h3>Marie Skłodowska-Curie Fellow</h3>
+                    <b>Department of Engineering, University of Cambridge</b>
+                </header>
+                    <p align="justify"><b>Dr Kai-Fung Chu is a Marie Skłodowska-Curie Fellow in the <a href="https://birlab.org/">Bio-Inspired Robotics Laboratory</a>, <a href="https://www.eng.cam.ac.uk/">Department of Engineering</a>, <a href="https://www.cam.ac.uk/">University of Cambridge</a>. He received the Ph.D. degree from the <a href="https://www.eee.hku.hk/">Department of Electrical and Electronic Engineering</a>, <a href="https://www.hku.hk/">The University of Hong Kong</a>, and the M.Sc. (Distinction) and B.Eng. (First Class Honors) degrees from the <a href="https://www.polyu.edu.hk/eee/">Department of Electronic and Information Engineering</a>, <a href="https://www.polyu.edu.hk/">The Hong Kong Polytechnic University</a>. Prior to joining the University of Cambridge, he was a Research Assistant Professor at the <a href="https://www.polyu.edu.hk/comp/">Department of Computing</a>, <a href="https://www.polyu.edu.hk/">The Hong Kong Polytechnic University</a>, and a Research Fellow of the <a href="https://www.cranfield.ac.uk/themes/aerospace">School of Aerospace, Transport and Manufacturing</a>, <a href="https://www.cranfield.ac.uk/">Cranfield University</a>. He also worked in the industry as an engineer for several years. His research focuses on multi-agent systems, intelligent transportation systems, robot learning and control, and physical reservoir computing.</b></p>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span>About me</span></a></li>
-								<li><a href="#news" id="portfolio-link"><span>News</span></a></li>
-								<!--li><a href="#research" id="about-link"><span>Research</span></a></li-->
-								<li><a href="#publications" id="contact-link"><span>Publications</span></a></li>
-								<li><a href="#teaching" id="contact-link"><span>Teaching</span></a></li>
-								<!--li><a href="#projects" id="contact-link"><span>Projects</span></a></li-->
-								<li><a href="#services" id="contact-link"><span>Professional Services</span></a></li>
-								<li><a href="#experience" id="contact-link"><span>Experience</span></a></li>
-								<li><a href="#awards" id="contact-link"><span>Awards</span></a></li>
-							</ul>
-						</nav>
+            </div>
+        </section>
 
-				</div>
+    <!-- News -->
+        <!--section id="news">
+            <!--div class="container">
 
-				<div class="bottom">
+                <!--header>
+                    <h2 align="left">News</h2>
+            </header-->
 
-					<!-- Social Icons -->
-						<ul class="icons">
-							<li><a href="https://scholar.google.com.hk/citations?user=zNQ99B0AAAAJ" class="icon brands fa-google"><span class="label">Google Scholar</span></a></li>
-							<li><a href="https://www.linkedin.com/in/kai-fung-chu-87917315a/" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
-                            <li><a href="mailto:kfchu@connect.hku.hk" class="fas fa-fw fa-envelope"></a></li>
-						</ul>
+                <!-- li align="left" style="color:#FF0000;"><b style="color:#FF0000;"> We are currently recruiting Postdoctoral Fellow/Research Associate/Research Assistant to work in areas related to artificial intelligence, optimization, intelligent transportation systems, and autonomous vehicles. Please feel free to send me an email with your CV if you are interested.</b></li -->
+                <!--li align="left"><b>06/2024, I am organising a new online talk series, <a href="https://fitalk.github.io/">Future Intelligence (FI) Talks</a>, designed to spotlight the work of excellent early career researchers in the field of future intelligence. See <a href="https://fitalk.github.io/">here</a> for more details.</b></li>
+                <li align="left"><b>06/2023, I will be moving to <a href="https://drf.eng.cam.ac.uk/staff/dr-kai-fung-chu">Department of Engineering, University of Cambridge</a> for a new exciting academic journey.</b></li>
+                <li align="left"><b>01/2022, I am awarded the <a href="https://www.polyu.edu.hk/en/alumni/connect/opaa/outstanding-polyu-alumni-award-2022/recipients-of-department-award/profiles-of-eie-recipients/#Dr_CHU_Kai-fung">Outstanding Young Alumni Award</a> of PolyU Department of Electronic and Information Engineering.</b></li-->
 
-				</div>
+    </div-->
+</section-->
+    
+    <!-- Research -->
+    <section id="research">
+        <div class="container">
 
-			</div>
+            <header>
+                <h2 align="left">Research</h2>
+            </header>
 
-		<!-- Main -->
-			<div id="main">
+            <p align="justify">Mobility systems are undergoing a profound transition by AI and robotics, evolving into highly complex dynamical and multi-agent systems in modern society. My research adopts a multi-scale co-design perspective to shape collective, emergent behaviour at the system level from embodied intelligence at the vehicle level. Through the integration of robotics, machine learning, and control theory, I aim to enable resilient, efficient, and scalable mobility solutions.</p>
 
-				<!-- Intro -->
-					<section id="top">
-						<div class="container">
+        </div>
+    </section>
 
-							<header>
-                                <span class="image fit20"><img src="images/Kai-Fung Chu.jpg" alt="" /></span>
-								<h2>Dr Kai-Fung Chu</h2>
-								<h3>Marie Skłodowska-Curie Fellow</h3>
-								<b>Department of Engineering, University of Cambridge</b>
-							</header>
-								<p align="justify"><b>Dr Kai-Fung Chu is a Marie Skłodowska-Curie Fellow in the <a href="https://birlab.org/">Bio-Inspired Robotics Laboratory</a>, <a href="https://www.eng.cam.ac.uk/">Department of Engineering</a>, <a href="https://www.cam.ac.uk/">University of Cambridge</a>. He received the Ph.D. degree from the <a href="https://www.eee.hku.hk/">Department of Electrical and Electronic Engineering</a>, <a href="https://www.hku.hk/">The University of Hong Kong</a>, and the M.Sc. (Distinction) and B.Eng. (First Class Honors) degrees from the <a href="https://www.polyu.edu.hk/eee/">Department of Electronic and Information Engineering</a>, <a href="https://www.polyu.edu.hk/">The Hong Kong Polytechnic University</a>. Prior to joining the University of Cambridge, he was a Research Assistant Professor at the <a href="https://www.polyu.edu.hk/comp/">Department of Computing</a>, <a href="https://www.polyu.edu.hk/">The Hong Kong Polytechnic University</a>, and a Research Fellow of the <a href="https://www.cranfield.ac.uk/themes/aerospace">School of Aerospace, Transport and Manufacturing</a>, <a href="https://www.cranfield.ac.uk/">Cranfield University</a>. He also worked in the industry as an engineer for several years. His research interests include multi-scale systems, embodied artificial intelligence, autonomous vehicles, and intelligent transportation systems.</b></p>
+    <section id="Multi-Agent Systems">
+        <div class="container" id="mas" style="margin-bottom: 4em;">
+            <h3 align="left">Multi-Agent Systems [#MAS]</h3>
+            <p align="left"><b>Decentralized coordination of large-scale systems</b></p>
+            <div class="row">
+                <div class="col-6 col-12-mobile">
+                    <span class="image fit">
+                        <img src="images/passenger_spoofing_attack.png">
+                    </span>
+                    <p style="text-align:center;"><b>Multi-agent Reinforcement Learning-based Passenger Spoofing Attack</b></p>
+                </div>
+            
+                <div class="col-6 col-12-mobile">
+                    <span class="image fit">
+                        <img src="images/construct_graph.png">
+                    </span>
+                    <p style="text-align:center;"><b>Rewiring Complex Networks to Achieve Cluster Synchronization</b></p>
+                </div>
+            </div>
 
-						</div>
-					</section>
-
-				<!-- News -->
-					<section id="news">
-						<div class="container">
-
-							<header>
-								<h2 align="left">News</h2>
-							</header>
-
-                            <!-- li align="left" style="color:#FF0000;"><b style="color:#FF0000;"> We are currently recruiting Postdoctoral Fellow/Research Associate/Research Assistant to work in areas related to artificial intelligence, optimization, intelligent transportation systems, and autonomous vehicles. Please feel free to send me an email with your CV if you are interested.</b></li -->
-							<li align="left"><b>06/2024, I am organising a new online talk series, <a href="https://fitalk.github.io/">Future Intelligence (FI) Talks</a>, designed to spotlight the work of excellent early career researchers in the field of future intelligence. See <a href="https://fitalk.github.io/">here</a> for more details.</b></li>
-							<li align="left"><b>06/2023, I will be moving to <a href="https://drf.eng.cam.ac.uk/staff/dr-kai-fung-chu">Department of Engineering, University of Cambridge</a> for a new exciting academic journey.</b></li>
-							<li align="left"><b>01/2022, I am awarded the <a href="https://www.polyu.edu.hk/en/alumni/connect/opaa/outstanding-polyu-alumni-award-2022/recipients-of-department-award/profiles-of-eie-recipients/#Dr_CHU_Kai-fung">Outstanding Young Alumni Award</a> of PolyU Department of Electronic and Information Engineering.</b></li>
-
-						</div>
-					</section>
-                
-				<!-- Research -->
-					<!--section id="research" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Research</h2>
-							</header>
-
-							<p>.</p>
-
-						</div>
-					</section-->
-
-				<!-- Publications -->
-					<section id="publications">
-						<div class="container">
-
-							<header>
-								<h2 align="left">Publications</h2>
-							</header>
-
-                            <!-- Toggle Button -->
-                            <button id="toggleButton" style="float: left; margin-bottom: 10px;" onclick="togglePublications()">Show Selected Publications</button>
-                            <div style="clear: both;"></div>
-
-                            <div id="fullPublications" class="publication-list">
-                                <h3 align="left">Journals</h3>
-                                <ol type = "1">
-                                    <li align="left"><a href="https://doi.org/10.1016/j.neunet.2025.108263" <b>Yanjun Zhou, Fan Ye, <u>Kai-Fung Chu</u>, and Fumiya Iida, “Scalable Mobile Swarm Network for Reservoir Computing Using Gaussian Kernel Density Estimation,” <i>Neural Networks</i>, vol. 195, Mar. 2026.</b></li>
-                                    <li align="left"><a href="https://doi.org/10.1016/j.asoc.2025.113624" <b>Yue Xie, <u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Fumiya Iida, “A Multi-Objective Evolutionary Algorithm with Constraint-Compliant Initialization for Energy Transport and Urban Logistics in Electric Vehicle Routing,” <i>Applied Soft Computing</i>, vol. 183, Nov. 2025.</b></li>
-                                    <li align="left"><a href="https://doi.org/10.1038/s44335-025-00033-5" <b><u>Kai-Fung Chu</u>, Fan Ye, Arsen Abdulali, and Fumiya Iida, “Enhancing Traffic Dynamics-Induced Machine Learning Through Heterogeneous Driving Policies,” <i>npj Unconventional Computing</i>, vol. 2, no. 18, Jul. 2025.</b></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/JIOT.2025.3538796" <b><u>Kai-Fung Chu</u>, Tianlun Chen, Yue Xie, Albert Y.S. Lam, Yue Song, and Fumiya Iida, “Collaborative Routing and Charging/Discharging Scheduling of Electric Autonomous Vehicles in Coupled Power-Traffic Networks: A Multi-Objective Approach,” <i>IEEE Internet of Things Journal</i>, vol. 12, no. 11, Jun. 2025.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1038/s44172-025-00418-1" <b>Fan Ye, Arsen Abdulali, <u>Kai-Fung Chu</u>, Xiaoping Zhang, and Fumiya Iida, “Reservoir Controllers Design Through Robot-Reservoir Timescale Alignment,” <i>Communications Engineering</i>, vol. 4, no. 81, Apr. 2025.</b></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/MITS.2024.3427655" <b><u>Kai-Fung Chu</u>, Haiyue Yuan, Jinsheng Yuan, Weisi Guo, Nazmiye Ozkan, and Shujun Li, “A Survey of AI-Related Cyber Security Risks and Countermeasures in Mobility-as-a-Service”, <i>IEEE Intelligent Transportation Systems Magazine</i>, vol. 16, no. 6, pp. 37-55, Nov.-Dec. 2024.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1016/j.neunet.2024.106695" <b>Chenchen Fan, <u>Kai-Fung Chu</u>, Xiaomei Wang, Ka-Wai Kwok, and Fumiya Iida, “State Transition Learning with Limited Data for Safe Control of Switched Nonlinear Systems,” <i>Neural Networks</i>, vol. 180, Dec. 2024.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/TDSC.2024.3379283" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Multi-agent Reinforcement Learning-based Passenger Spoofing Attack on Mobility-as-a-Service,” <i>IEEE Transactions on Dependable and Secure Computing</i>, vol. 21, no. 6, pp. 5565-5581, Nov.-Dec. 2024.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/TITS.2024.3463189" <b>Yang Chen, Saba Al-Rubaye, Antonios Tsourdos, <u>Kai-Fung Chu</u>, Zhuangkun Wei, Lawrence Baker, and Colin Gillingham, “Federated Deep Reinforcement Learning based Intelligent Surface Configuration in 6G Secure Airport Networks,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, Oct. 2024.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/TNSE.2024.3410694" <b>Mengbang Zou, Weisi Guo, and <u>Kai-Fung Chu</u>, “Rewiring Complex Networks to Achieve Cluster Synchronization using Graph Convolution Networks with Reinforcement Learning,” <i>IEEE Transactions on Network Science and Engineering</i>, vol. 11, no. 5, pp. 4293-4304, Sept.-Oct. 2024.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/TCYB.2023.3286416" <b>Chenchen Fan, James Lam, <u>Kai-Fung Chu</u>, Xiujuan Lu, and Ka-Wai Kwok, “Output Reachable Set-based Leader-following Consensus of Positive Agents over Switching Networks,” <i>IEEE Transactions on Cybernetics</i> vol. 54, no. 7, pp. 3918-3930, Jul. 2024.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/TITS.2023.3317358" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Privacy-Preserving Federated Deep Reinforcement Learning for Mobility-as-a-Service,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 25, no. 2, pp. 1882-1896, Feb. 2024.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1007/s00521-023-08733-4" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Deep Reinforcement Learning of Passenger Behavior in Multimodal Journey Planning with Proportional Fairness,” <i>Neural Computing and Applications</i>, vol. 35, pp. 20221-20240, Sep. 2023.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/ACCESS.2023.3294345" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, Ka Ho Tsoi, Zhiran Huang, and Becky P.Y. Loo, “Deep Encoder Cross Network for Estimated Time of Arrival,” <i>IEEE Access</i>, vol. 11, pp. 76095–76107, Jul. 2023.</b></a></li>
-    								<li align="left"><a href="https://doi.org/10.1109/TITS.2021.3067057" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Traffic Signal Control Using End-to-End Off-policy Deep Reinforcement Learning,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 23, no. 7, pp. 7184-7195, Jul. 2022.</b></a></li>
-    								<li align="left"><a href="https://doi.org/10.1109/TITS.2021.3067044" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Joint Rebalancing and Vehicle-to-Grid Coordination for Autonomous Vehicle Public Transportation System,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 23, no. 7, pp. 7156-7169, Jul. 2022.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/TNNLS.2020.3022950" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, Chenchen Fan, and Victor O.K. Li, “Disturbance-Aware Neuro-Optimal System Control Using Generative Adversarial Control Networks,” <i>IEEE Transactions on Neural Networks and Learning Systems</i>, vol. 32, no. 10, pp. 4565-4576, Oct. 2021.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/TITS.2019.2924971" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Deep Multi-Scale Convolutional LSTM Network for Travel Demand and Origin-Destination Predictions,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 21, no. 8, pp. 3219-3232, Aug. 2020.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/TITS.2019.2920674" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Dynamic Lane Reversal Routing and Scheduling for Connected Autonomous Vehicles: Formulation and Distributed Algorithm,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 21, no. 6, pp. 2557-2570, Jun. 2020.</b></a></li>
-                                </ol>
-                                <h3 align="left">Conference Proceedings</h3>
-                                <ol type = "1">
-                                    <li align="left"><b>Yi Zhang, Omar Faris, Chapa Sirithunge, <u>Kai-Fung Chu</u>, Fumiya Iida, and Fulvio Forni, “Distributed Virtual Model Control for Scalable Human-Robot Collaboration in Shared Workspace,” International Conference on Robotics and Automation, 2026.</b></li>
-                                    <li align="left"><b><u>Kai-Fung Chu</u>, Fan Ye, Xiang Wang, Kohei Nakajima, and Fumiya Iida, “Elementary Characteristics and Energy Transport in Physical Reservoir Computing,” 5th International Conference on Embodied Intelligence, Dec. 2025.</b></li>
-                                    <li align="left"><b>Mingqi Yuan, Huijiang Wang, <u>Kai-Fung Chu</u>, Fumiya Iida, Bo Li, and Wenjun Zeng, “Hierarchical Procedural Framework for Low-latency Robot-Assisted Hand-Object Interaction,” IEEE International Conference on Systems, Man, and Cybernetics, Vienna, Austria, Oct. 2025.</b></li>
-                                    <li align="left"><b>Fan Ye, Timothy Bonner, Arsen Abdulali, <u>Kai-Fung Chu</u>, and Fumiya Iida, “Reservoir Computing for Torque-Restricted Pendulum Control”, Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, Hangzhou, China, Oct. 2025.</b></li>
-                                    <li align="left"><b><u>Kai-Fung Chu</u>, Yue Xie, Albert Y.S. Lam, and Fumiya Iida, “Mixed-Autonomy Traffic and Wireless Charging Problem for Autonomous Electric Vehicles Using Reinforcement Learning”, Proceedings of the 9th EAI International Conference on Smart Grid and Innovative Frontiers in Telecommunications, Hong Kong, China, Dec. 2024.</b></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/DDCLS61622.2024.10606772" <b>Xiaoping Zhang, Xiangpeng Meng, <u>Kai-Fung Chu</u>, and Li Wang, “A Bottom-up Human Pose Estimation Correction Method Based on Object Detection,” <i>Proceedings of the IEEE 13th Data Driven Control and Learning Systems Conference</i>, Kaifeng, China, May 2024.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1088/1757-899X/1321/1/012010" <b><u>Kai-Fung Chu</u>, Fan Ye, and Fumiya Iida, “Embodied Intelligence in Transportation Systems: Road Network Computing,” Proceedings of the 3rd International Conference on Embodied Intelligence, Cambridge, United Kingdom, 2024.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/ARSO60199.2024.10557825" <b><u>Kai-Fung Chu</u> Chenchen Fan, and Fumiya Iida, “Navigating Mixed Traffic: Current State and Future Challenges in Integrating Autonomous and Human-Driven Vehicles,” <i>Proceedings of the 2024 IEEE International Conference on Advanced Robotics and Its Social Impacts (ARSO)</i>, Hong Kong, China, May 2024.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/ITSC57777.2023.10422567" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Passenger Spoofing Attack for Artificial Intelligence-based Mobility-as-a-Service,” <i>Proceedings of the 2023 IEEE 26th International Conference on Intelligent Transportation Systems (IEEE ITSC 2023)</i>, Bilbao, Bizkaia, Spain, September 2023.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/ITSC57777.2023.10422279" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Federated Reinforcement Learning for Consumers Privacy Protection in Mobility-as-a-Service,” <i>Proceedings of the 2023 IEEE 26th International Conference on Intelligent Transportation Systems (IEEE ITSC 2023)</i>, Bilbao, Bizkaia, Spain, September 2023.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/VTC2023-Spring57618.2023.10199505" <b><u>Kai-Fung Chu</u>, Tianlun Chen, Albert Y.S. Lam, and Yue Song, " Collaborative Routing and Charging/Discharging Scheduling of Electric Autonomous Vehicles in Coupled Power-Traffic Networks," <i>Proceedings of the 2023 IEEE 97th Vehicular Technology Conference</i>, Florence, Italy, June 2023.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/PESGM41954.2020.9281414" <b>Tianlun Chen, <u>Kai-Fung Chu</u>, Albert Y.S. Lam, David J. Hill, Victor O.K. Li, "Electric Autonomous Vehicle Charging and Parking Coordination for Vehicle-to-Grid Voltage Regulation with Renewable Energy," <i>Proceedings of the 2020 IEEE PES General Meeting</i>, Montreal, Quebec, Canada, August 2020.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/ITSC.2019.8917286" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, Becky P.Y. Loo, and Victor O.K. Li, “Public Transport Waiting Time Estimation Using Semi-Supervised Graph Convolutional Networks,” <i>Proceedings of the 22nd IEEE International Conference on Intelligent Transportation Systems (IEEE ITSC 2019)</i>, Auckland, New Zealand, October 2019.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/ITSC.2018.8569427" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Travel Demand Prediction using Deep Multi-Scale Convolutional LSTM Network,” <i>Proceedings of the 21st IEEE International Conference on Intelligent Transportation Systems (IEEE ITSC 2018)</i>, Maui, HI, USA, November 2018.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/ISC2.2017.8090813" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Dynamic Lane Reversal Routing and Scheduling for Connected Autonomous Vehicles,” <i>Proceedings of the 3rd IEEE International Smart Cities Conference (IEEE ISC2 2017)</i>, Wuxi, China, September 2017.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/VTCSpring.2017.8108280" <b><u>Kai-Fung Chu</u>, Elmer R Magsino, Ivan Wang-Hei Ho, and Chi-Kin Chau, "Index Coding of Point Cloud-based Road Map Data for Autonomous Driving," <i>Proceedings of the 85th IEEE Vehicular Technology Conference (IEEE VTC 2017 Spring)</i>, Sydney, NSW, June 2017.</b></a></li>
-                                </ol>
-                            </div>
-
-                            <!-- Selected Publications -->
-                            <div id="selectedPublications" class="publication-list" style="display: none;">
-                                <h3 align="left">Selected Publications</h3>
-                                <ol>
-                                    <li align="left"><a href="https://doi.org/10.1038/s44335-025-00033-5" <b><u>Kai-Fung Chu</u>, Fan Ye, Arsen Abdulali, and Fumiya Iida, “Enhancing Traffic Dynamics-Induced Machine Learning Through Heterogeneous Driving Policies,” <i>npj Unconventional Computing</i>, vol. 2, no. 18, Jul. 2025.</b></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/TITS.2019.2924971" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Deep Multi-Scale Convolutional LSTM Network for Travel Demand and Origin-Destination Predictions,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 21, no. 8, pp. 3219-3232, August 2020.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/TNNLS.2020.3022950" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, Chenchen Fan, and Victor O.K. Li, “Disturbance-Aware Neuro-Optimal System Control Using Generative Adversarial Control Networks,” <i>IEEE Transactions on Neural Networks and Learning Systems</i>, vol. 32, no. 10, pp. 4565-4576, Oct. 2021.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/TITS.2023.3317358" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Privacy-Preserving Federated Deep Reinforcement Learning for Mobility-as-a-Service,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 25, no. 2, pp. 1882-1896, Feb. 2024.</b></a></li>
-                                    <li align="left"><a href="https://doi.org/10.1109/TITS.2021.3067057" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Traffic Signal Control Using End-to-End Off-policy Deep Reinforcement Learning,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 23, no. 7, pp. 7184-7195, Jul. 2022.</b></a></li>
-                                </ol>
-                            </div>
-						</div>
-					</section>
-
-                    <script>
-                    function togglePublications() {
-                        const fullList = document.getElementById("fullPublications");
-                        const selectedList = document.getElementById("selectedPublications");
-                        const toggleButton = document.getElementById("toggleButton");
-
-                        if (selectedList.style.display === "none") {
-                            fullList.style.display = "none";
-                            selectedList.style.display = "block";
-                            toggleButton.textContent = "Show All Publications";
-                        } else {
-                            fullList.style.display = "block";
-                            selectedList.style.display = "none";
-                            toggleButton.textContent = "Show Selected Publications";
-                        }
+            <div id="fullMASPublications" style="display: none;">
+                <h4 align="left">All [#MAS] Publications</h4>
+                <ul>
+                    <li align="left"><a href="https://doi.org/10.1016/j.neunet.2025.108263" <b>Yanjun Zhou, Fan Ye, <u>Kai-Fung Chu</u>, and Fumiya Iida, “Scalable Mobile Swarm Network for Reservoir Computing Using Gaussian Kernel Density Estimation,” <i>Neural Networks</i>, vol. 195, Mar. 2026. [#PRC] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/JIOT.2025.3538796" <b><u>Kai-Fung Chu</u>, Tianlun Chen, Yue Xie, Albert Y.S. Lam, Yue Song, and Fumiya Iida, “Collaborative Routing and Charging/Discharging Scheduling of Electric Autonomous Vehicles in Coupled Power-Traffic Networks: A Multi-Objective Approach,” <i>IEEE Internet of Things Journal</i>, vol. 12, no. 11, Jun. 2025. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TDSC.2024.3379283" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Multi-agent Reinforcement Learning-based Passenger Spoofing Attack on Mobility-as-a-Service,” <i>IEEE Transactions on Dependable and Secure Computing</i>, vol. 21, no. 6, pp. 5565-5581, Nov.-Dec. 2024. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TNSE.2024.3410694" <b>Mengbang Zou, Weisi Guo, and <u>Kai-Fung Chu</u>, “Rewiring Complex Networks to Achieve Cluster Synchronization using Graph Convolution Networks with Reinforcement Learning,” <i>IEEE Transactions on Network Science and Engineering</i>, vol. 11, no. 5, pp. 4293-4304, Sept.-Oct. 2024. [#MAS] [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TCYB.2023.3286416" <b>Chenchen Fan, James Lam, <u>Kai-Fung Chu</u>, Xiujuan Lu, and Ka-Wai Kwok, “Output Reachable Set-based Leader-following Consensus of Positive Agents over Switching Networks,” <i>IEEE Transactions on Cybernetics</i> vol. 54, no. 7, pp. 3918-3930, Jul. 2024. [#MAS] [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2023.3317358" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Privacy-Preserving Federated Deep Reinforcement Learning for Mobility-as-a-Service,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 25, no. 2, pp. 1882-1896, Feb. 2024. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1007/s00521-023-08733-4" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Deep Reinforcement Learning of Passenger Behavior in Multimodal Journey Planning with Proportional Fairness,” <i>Neural Computing and Applications</i>, vol. 35, pp. 20221-20240, Sep. 2023. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2021.3067044" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Joint Rebalancing and Vehicle-to-Grid Coordination for Autonomous Vehicle Public Transportation System,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 23, no. 7, pp. 7156-7169, Jul. 2022. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2019.2920674" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Dynamic Lane Reversal Routing and Scheduling for Connected Autonomous Vehicles: Formulation and Distributed Algorithm,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 21, no. 6, pp. 2557-2570, Jun. 2020. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ITSC57777.2023.10422567" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Passenger Spoofing Attack for Artificial Intelligence-based Mobility-as-a-Service,” <i>Proceedings of the 2023 IEEE 26th International Conference on Intelligent Transportation Systems (IEEE ITSC 2023)</i>, Bilbao, Bizkaia, Spain, September 2023. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ITSC57777.2023.10422279" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Federated Reinforcement Learning for Consumers Privacy Protection in Mobility-as-a-Service,” <i>Proceedings of the 2023 IEEE 26th International Conference on Intelligent Transportation Systems (IEEE ITSC 2023)</i>, Bilbao, Bizkaia, Spain, September 2023. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/VTC2023-Spring57618.2023.10199505" <b><u>Kai-Fung Chu</u>, Tianlun Chen, Albert Y.S. Lam, and Yue Song, " Collaborative Routing and Charging/Discharging Scheduling of Electric Autonomous Vehicles in Coupled Power-Traffic Networks," <i>Proceedings of the 2023 IEEE 97th Vehicular Technology Conference</i>, Florence, Italy, June 2023. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/PESGM41954.2020.9281414" <b>Tianlun Chen, <u>Kai-Fung Chu</u>, Albert Y.S. Lam, David J. Hill, Victor O.K. Li, "Electric Autonomous Vehicle Charging and Parking Coordination for Vehicle-to-Grid Voltage Regulation with Renewable Energy," <i>Proceedings of the 2020 IEEE PES General Meeting</i>, Montreal, Quebec, Canada, August 2020. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ISC2.2017.8090813" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Dynamic Lane Reversal Routing and Scheduling for Connected Autonomous Vehicles,” <i>Proceedings of the 3rd IEEE International Smart Cities Conference (IEEE ISC2 2017)</i>, Wuxi, China, September 2017. [#ITS] [#MAS]</b></a></li>
+                </ul>
+            </div>
+            <div id="selectedMASPublications">
+                <h4 align="left">Selected [#MAS] Publications</h4>
+                <ul>
+                    <li align="left"><a href="https://doi.org/10.1109/TDSC.2024.3379283" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Multi-agent Reinforcement Learning-based Passenger Spoofing Attack on Mobility-as-a-Service,” <i>IEEE Transactions on Dependable and Secure Computing</i>, vol. 21, no. 6, pp. 5565-5581, Nov.-Dec. 2024. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2021.3067044" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Joint Rebalancing and Vehicle-to-Grid Coordination for Autonomous Vehicle Public Transportation System,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 23, no. 7, pp. 7156-7169, Jul. 2022. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TNSE.2024.3410694" <b>Mengbang Zou, Weisi Guo, and <u>Kai-Fung Chu</u>, “Rewiring Complex Networks to Achieve Cluster Synchronization using Graph Convolution Networks with Reinforcement Learning,” <i>IEEE Transactions on Network Science and Engineering</i>, vol. 11, no. 5, pp. 4293-4304, Sept.-Oct. 2024. [#MAS] [#RL&C]</b></a></li>
+                </ul>
+            </div>
+            <button id="toggleMASButton" style="float: left; margin-bottom: 10px;" onclick="toggleMASPublications()">Show Selected [#MAS] Publications</button>
+            <script>
+                function toggleMASPublications() {
+                    const fullMASList = document.getElementById("fullMASPublications");
+                    const selectedMASList = document.getElementById("selectedMASPublications");
+                    const toggleMASButton = document.getElementById("toggleMASButton");
+            
+                    if (selectedMASList.style.display === "none") {
+                        fullMASList.style.display = "none";
+                        selectedMASList.style.display = "block";
+                        toggleMASButton.textContent = "Show All [#MAS] Publications";
+                    } else {
+                        fullMASList.style.display = "block";
+                        selectedMASList.style.display = "none";
+                        toggleMASButton.textContent = "Show Selecated [#MAS] Publications";
                     }
-                    </script>
+                }
+            </script>
+        </div>
+    </section>
 
-				<!-- Teaching -->
-					<section id="teaching">
-						<div class="container">
-							<header>
-								<h2 align="left">Teaching</h2>
-							</header>
-                            <h3 align="left">University of Cambridge</h3>
-                                <li align="left"><b>Co-Lecturer and Lab Demonstrator, Introduction to Robotics (4M20), Mich 2025</b></li>
-                                <li align="left"><b>Supervisor and Teaching Assistant, Advanced Robotics (4M25), Lent 2025</b></li>
-                                <li align="left"><b>Teaching Assistant and Lab Demonstrator, Integrated Design Project (IDP), Mich 2023, Lent & Mich 2024</b></li>
-                            <h3 align="left">The Hong Kong Polytechnic University</h3>
-                                <li align="left"><b>Subject Lecturer, Machine Learning and Applications in Finance (COMP5564), Spring 2023</b></li>
-                            <h3 align="left">The University of Hong Kong</h3>
-                                <li align="left"><b>Teaching Assistant and Lab Demonstrator, Everyday Computing and the Internet (CCST9003), Summer & Fall 2018, and Fall 2019</b></li>
-                                <li align="left"><b>Teaching Assistant and Lab Demonstrator, Introduction to Electrical and Electronic Engineering (ELEC1203), Fall 2017</b></li>
+    <section id="Intelligent Transportation Systems">
+        <div class="container" id="its" style="margin-bottom: 4em;">
+            <h3 align="left">Intelligent Transportation Systems [#ITS]</h3>
+            <p align="left"><b>AI-driven traffic control, autonomous vehicles, and mobility systems</b></p>
+            <div class="row">
+                <div class="col-6 col-12-mobile">
+                    <span class="image fit">
+                        <img src="images/overview_its.png">
+                    </span>
+                    <p style="text-align:center;"><b>Interaction Between Autonomous Vehicles, Human-Driven Vehicles, and Intelligent Systems in ITS</b></p>
+                </div>
+            
+                <div class="col-6 col-12-mobile">
+                    <span class="image fit">
+                        <img src="images/MultiConvLSTM.png">
+                    </span>
+                    <p style="text-align:center;"><b>Deep Multi-Scale Convolutional LSTM Network for Travel Demand and Origin-Destination Predictions</b></p>
+                </div>
+            </div>
+            
+            <div id="fullITSPublications" style="display: none;">
+                <h4 align="left">All [#ITS] Publications</h4>
+                <ul>
+                    <li align="left"><a href="https://doi.org/10.1016/j.asoc.2025.113624" <b>Yue Xie, <u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Fumiya Iida, “A Multi-Objective Evolutionary Algorithm with Constraint-Compliant Initialization for Energy Transport and Urban Logistics in Electric Vehicle Routing,” <i>Applied Soft Computing</i>, vol. 183, Nov. 2025. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1038/s44335-025-00033-5" <b><u>Kai-Fung Chu</u>, Fan Ye, Arsen Abdulali, and Fumiya Iida, “Enhancing Traffic Dynamics-Induced Machine Learning Through Heterogeneous Driving Policies,” <i>npj Unconventional Computing</i>, vol. 2, no. 18, Jul. 2025. [#PRC] [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/JIOT.2025.3538796" <b><u>Kai-Fung Chu</u>, Tianlun Chen, Yue Xie, Albert Y.S. Lam, Yue Song, and Fumiya Iida, “Collaborative Routing and Charging/Discharging Scheduling of Electric Autonomous Vehicles in Coupled Power-Traffic Networks: A Multi-Objective Approach,” <i>IEEE Internet of Things Journal</i>, vol. 12, no. 11, Jun. 2025. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/MITS.2024.3427655" <b><u>Kai-Fung Chu</u>, Haiyue Yuan, Jinsheng Yuan, Weisi Guo, Nazmiye Ozkan, and Shujun Li, “A Survey of AI-Related Cyber Security Risks and Countermeasures in Mobility-as-a-Service”, <i>IEEE Intelligent Transportation Systems Magazine</i>, vol. 16, no. 6, pp. 37-55, Nov.-Dec. 2024. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TDSC.2024.3379283" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Multi-agent Reinforcement Learning-based Passenger Spoofing Attack on Mobility-as-a-Service,” <i>IEEE Transactions on Dependable and Secure Computing</i>, vol. 21, no. 6, pp. 5565-5581, Nov.-Dec. 2024. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2024.3463189" <b>Yang Chen, Saba Al-Rubaye, Antonios Tsourdos, <u>Kai-Fung Chu</u>, Zhuangkun Wei, Lawrence Baker, and Colin Gillingham, “Federated Deep Reinforcement Learning based Intelligent Surface Configuration in 6G Secure Airport Networks,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, Oct. 2024. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2023.3317358" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Privacy-Preserving Federated Deep Reinforcement Learning for Mobility-as-a-Service,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 25, no. 2, pp. 1882-1896, Feb. 2024. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1007/s00521-023-08733-4" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Deep Reinforcement Learning of Passenger Behavior in Multimodal Journey Planning with Proportional Fairness,” <i>Neural Computing and Applications</i>, vol. 35, pp. 20221-20240, Sep. 2023. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ACCESS.2023.3294345" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, Ka Ho Tsoi, Zhiran Huang, and Becky P.Y. Loo, “Deep Encoder Cross Network for Estimated Time of Arrival,” <i>IEEE Access</i>, vol. 11, pp. 76095–76107, Jul. 2023. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2021.3067057" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Traffic Signal Control Using End-to-End Off-policy Deep Reinforcement Learning,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 23, no. 7, pp. 7184-7195, Jul. 2022. [#ITS] [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2021.3067044" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Joint Rebalancing and Vehicle-to-Grid Coordination for Autonomous Vehicle Public Transportation System,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 23, no. 7, pp. 7156-7169, Jul. 2022. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2019.2924971" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Deep Multi-Scale Convolutional LSTM Network for Travel Demand and Origin-Destination Predictions,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 21, no. 8, pp. 3219-3232, Aug. 2020. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2019.2920674" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Dynamic Lane Reversal Routing and Scheduling for Connected Autonomous Vehicles: Formulation and Distributed Algorithm,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 21, no. 6, pp. 2557-2570, Jun. 2020. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><b><u>Kai-Fung Chu</u>, “Towards Multi-Layer Intelligent Future Roads for Mixed Autonomy,” Future Roads Conference, Cambridge, UK, Jul. 2026. [#ITS]</b></li>
+                    <li align="left"><b><u>Kai-Fung Chu</u>, Yue Xie, Albert Y.S. Lam, and Fumiya Iida, “Mixed-Autonomy Traffic and Wireless Charging Problem for Autonomous Electric Vehicles Using Reinforcement Learning”, Proceedings of the 9th EAI International Conference on Smart Grid and Innovative Frontiers in Telecommunications, Hong Kong, China, Dec. 2024. [#ITS]</b></li>
+                    <li align="left"><a href="https://doi.org/10.1109/DDCLS61622.2024.10606772" <b>Xiaoping Zhang, Xiangpeng Meng, <u>Kai-Fung Chu</u>, and Li Wang, “A Bottom-up Human Pose Estimation Correction Method Based on Object Detection,” <i>Proceedings of the IEEE 13th Data Driven Control and Learning Systems Conference</i>, Kaifeng, China, May 2024. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1088/1757-899X/1321/1/012010" <b><u>Kai-Fung Chu</u>, Fan Ye, and Fumiya Iida, “Embodied Intelligence in Transportation Systems: Road Network Computing,” Proceedings of the 3rd International Conference on Embodied Intelligence, Cambridge, United Kingdom, 2024. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ARSO60199.2024.10557825" <b><u>Kai-Fung Chu</u> Chenchen Fan, and Fumiya Iida, “Navigating Mixed Traffic: Current State and Future Challenges in Integrating Autonomous and Human-Driven Vehicles,” <i>Proceedings of the 2024 IEEE International Conference on Advanced Robotics and Its Social Impacts (ARSO)</i>, Hong Kong, China, May 2024. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ITSC57777.2023.10422567" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Passenger Spoofing Attack for Artificial Intelligence-based Mobility-as-a-Service,” <i>Proceedings of the 2023 IEEE 26th International Conference on Intelligent Transportation Systems (IEEE ITSC 2023)</i>, Bilbao, Bizkaia, Spain, September 2023. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ITSC57777.2023.10422279" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Federated Reinforcement Learning for Consumers Privacy Protection in Mobility-as-a-Service,” <i>Proceedings of the 2023 IEEE 26th International Conference on Intelligent Transportation Systems (IEEE ITSC 2023)</i>, Bilbao, Bizkaia, Spain, September 2023. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/VTC2023-Spring57618.2023.10199505" <b><u>Kai-Fung Chu</u>, Tianlun Chen, Albert Y.S. Lam, and Yue Song, " Collaborative Routing and Charging/Discharging Scheduling of Electric Autonomous Vehicles in Coupled Power-Traffic Networks," <i>Proceedings of the 2023 IEEE 97th Vehicular Technology Conference</i>, Florence, Italy, June 2023. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/PESGM41954.2020.9281414" <b>Tianlun Chen, <u>Kai-Fung Chu</u>, Albert Y.S. Lam, David J. Hill, Victor O.K. Li, "Electric Autonomous Vehicle Charging and Parking Coordination for Vehicle-to-Grid Voltage Regulation with Renewable Energy," <i>Proceedings of the 2020 IEEE PES General Meeting</i>, Montreal, Quebec, Canada, August 2020. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ITSC.2019.8917286" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, Becky P.Y. Loo, and Victor O.K. Li, “Public Transport Waiting Time Estimation Using Semi-Supervised Graph Convolutional Networks,” <i>Proceedings of the 22nd IEEE International Conference on Intelligent Transportation Systems (IEEE ITSC 2019)</i>, Auckland, New Zealand, October 2019. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ITSC.2018.8569427" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Travel Demand Prediction using Deep Multi-Scale Convolutional LSTM Network,” <i>Proceedings of the 21st IEEE International Conference on Intelligent Transportation Systems (IEEE ITSC 2018)</i>, Maui, HI, USA, November 2018. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ISC2.2017.8090813" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Dynamic Lane Reversal Routing and Scheduling for Connected Autonomous Vehicles,” <i>Proceedings of the 3rd IEEE International Smart Cities Conference (IEEE ISC2 2017)</i>, Wuxi, China, September 2017. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/VTCSpring.2017.8108280" <b><u>Kai-Fung Chu</u>, Elmer R Magsino, Ivan Wang-Hei Ho, and Chi-Kin Chau, "Index Coding of Point Cloud-based Road Map Data for Autonomous Driving," <i>Proceedings of the 85th IEEE Vehicular Technology Conference (IEEE VTC 2017 Spring)</i>, Sydney, NSW, June 2017. [#ITS]</b></a></li>
+                </ul>
+            </div>
+            <div id="selectedITSPublications">
+                <h4 align="left">Selected [#ITS] Publications</h4>
+                <ul>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2019.2924971" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Deep Multi-Scale Convolutional LSTM Network for Travel Demand and Origin-Destination Predictions,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 21, no. 8, pp. 3219-3232, Aug. 2020. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2023.3317358" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Privacy-Preserving Federated Deep Reinforcement Learning for Mobility-as-a-Service,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 25, no. 2, pp. 1882-1896, Feb. 2024. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ACCESS.2023.3294345" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, Ka Ho Tsoi, Zhiran Huang, and Becky P.Y. Loo, “Deep Encoder Cross Network for Estimated Time of Arrival,” <i>IEEE Access</i>, vol. 11, pp. 76095–76107, Jul. 2023. [#ITS]</b></a></li>
+                </ul>
+            </div>
+            <button id="toggleITSButton" style="float: left; margin-bottom: 10px;" onclick="toggleITSPublications()">Show Selected [#ITS] Publications</button>
+            <script>
+                function toggleITSPublications() {
+                    const fullITSList = document.getElementById("fullITSPublications");
+                    const selectedITSList = document.getElementById("selectedITSPublications");
+                    const toggleITSButton = document.getElementById("toggleITSButton");
+            
+                    if (selectedITSList.style.display === "none") {
+                        fullITSList.style.display = "none";
+                        selectedITSList.style.display = "block";
+                        toggleITSButton.textContent = "Show All [#ITS] Publications";
+                    } else {
+                        fullITSList.style.display = "block";
+                        selectedITSList.style.display = "none";
+                        toggleITSButton.textContent = "Show Selecated [#ITS] Publications";
+                    }
+                }
+            </script>
+        </div>
+    </section>
+        
 
-						</div>
-					</section>
+    <section id="Robot Learning and Control">
+        <div class="container" id="rlc" style="margin-bottom: 4em;">
+            <h3 align="left">Robot Learning and Control [#RL&C]</h3>
+            <p align="left"><b>Integration of machine learning and control theory for robotics systems</b></p>
+            <div class="row">
+                <div class="col-6 col-12-mobile">
+                    <span class="image fit">
+                        <img src="images/collaboration.png">
+                    </span>
+                    <p style="text-align:center;"><b>Human-Robot Collaboration by Virtual Model Control</b></p>
+                </div>
+            
+                <div class="col-6 col-12-mobile">
+                    <span class="image fit">
+                        <img src="images/Robot_setup_sim_2.png">
+                    </span>
+                    <p style="text-align:center;"><b>Scalable Multi-Robot Collaboration</b></p>
+                </div>
+            </div>
+            
+            <div id="fullRLCPublications" style="display: none;">
+                <h4 align="left">All [#RL&C] Publications</h4>
+                <ul>
+                    <li align="left"><a href="https://doi.org/10.1038/s44172-025-00418-1" <b>Fan Ye, Arsen Abdulali, <u>Kai-Fung Chu</u>, Xiaoping Zhang, and Fumiya Iida, “Reservoir Controllers Design Through Robot-Reservoir Timescale Alignment,” <i>Communications Engineering</i>, vol. 4, no. 81, Apr. 2025. [#PRC] [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1016/j.neunet.2024.106695" <b>Chenchen Fan, <u>Kai-Fung Chu</u>, Xiaomei Wang, Ka-Wai Kwok, and Fumiya Iida, “State Transition Learning with Limited Data for Safe Control of Switched Nonlinear Systems,” <i>Neural Networks</i>, vol. 180, Dec. 2024. [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TNSE.2024.3410694" <b>Mengbang Zou, Weisi Guo, and <u>Kai-Fung Chu</u>, “Rewiring Complex Networks to Achieve Cluster Synchronization using Graph Convolution Networks with Reinforcement Learning,” <i>IEEE Transactions on Network Science and Engineering</i>, vol. 11, no. 5, pp. 4293-4304, Sept.-Oct. 2024. [#MAS] [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TCYB.2023.3286416" <b>Chenchen Fan, James Lam, <u>Kai-Fung Chu</u>, Xiujuan Lu, and Ka-Wai Kwok, “Output Reachable Set-based Leader-following Consensus of Positive Agents over Switching Networks,” <i>IEEE Transactions on Cybernetics</i> vol. 54, no. 7, pp. 3918-3930, Jul. 2024. [#MAS] [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2021.3067057" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Traffic Signal Control Using End-to-End Off-policy Deep Reinforcement Learning,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 23, no. 7, pp. 7184-7195, Jul. 2022. [#RL&C] [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TNNLS.2020.3022950" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, Chenchen Fan, and Victor O.K. Li, “Disturbance-Aware Neuro-Optimal System Control Using Generative Adversarial Control Networks,” <i>IEEE Transactions on Neural Networks and Learning Systems</i>, vol. 32, no. 10, pp. 4565-4576, Oct. 2021. [#RL&C]</b></a></li>
+                    <li align="left"><b>Yi Zhang, Omar Faris, Chapa Sirithunge, <u>Kai-Fung Chu</u>, Fumiya Iida, and Fulvio Forni, “Distributed Virtual Model Control for Scalable Human-Robot Collaboration in Shared Workspace,” International Conference on Robotics and Automation, Vienna, Austria, Jun. 2026. [#RL&C] [#MAS]</b></li>
+                    <li align="left"><b>Mingqi Yuan, Huijiang Wang, <u>Kai-Fung Chu</u>, Fumiya Iida, Bo Li, and Wenjun Zeng, “Hierarchical Procedural Framework for Low-latency Robot-Assisted Hand-Object Interaction,” IEEE International Conference on Systems, Man, and Cybernetics, Vienna, Austria, Oct. 2025. [#RL&C]</b></li>
+                    <li align="left"><b>Fan Ye, Timothy Bonner, Arsen Abdulali, <u>Kai-Fung Chu</u>, and Fumiya Iida, “Reservoir Computing for Torque-Restricted Pendulum Control”, Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, Hangzhou, China, Oct. 2025. [#PRC] [#RL&C]</b></li>
+                </ul>
+            </div>
+            <div id="selectedRLCPublications">
+                <h4 align="left">Selected [#RL&C] Publications</h4>
+                <ul>
+                    <li align="left"><b>Yi Zhang, Omar Faris, Chapa Sirithunge, <u>Kai-Fung Chu</u>, Fumiya Iida, and Fulvio Forni, “Distributed Virtual Model Control for Scalable Human-Robot Collaboration in Shared Workspace,” International Conference on Robotics and Automation, Vienna, Austria, Jun. 2026. [#RL&C] [#MAS]</b></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TNNLS.2020.3022950" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, Chenchen Fan, and Victor O.K. Li, “Disturbance-Aware Neuro-Optimal System Control Using Generative Adversarial Control Networks,” <i>IEEE Transactions on Neural Networks and Learning Systems</i>, vol. 32, no. 10, pp. 4565-4576, Oct. 2021. [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2021.3067057" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Traffic Signal Control Using End-to-End Off-policy Deep Reinforcement Learning,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 23, no. 7, pp. 7184-7195, Jul. 2022. [#RL&C] [#ITS]</b></a></li>
+                </ul>
+            </div>
+            <button id="toggleRLCButton" style="float: left; margin-bottom: 10px;" onclick="toggleRLCPublications()">Show Selected [#RL&C] Publications</button>
+            <script>
+                function toggleRLCPublications() {
+                    const fullRLCList = document.getElementById("fullRLCPublications");
+                    const selectedRLCList = document.getElementById("selectedRLCPublications");
+                    const toggleRLCButton = document.getElementById("toggleRLCButton");
+            
+                    if (selectedRLCList.style.display === "none") {
+                        fullRLCList.style.display = "none";
+                        selectedRLCList.style.display = "block";
+                        toggleRLCButton.textContent = "Show All [#RL&C] Publications";
+                    } else {
+                        fullRLCList.style.display = "block";
+                        selectedRLCList.style.display = "none";
+                        toggleRLCButton.textContent = "Show Selecated [#RL&C] Publications";
+                    }
+                }
+            </script>
+        </div>
+    </section>
+        
 
-				<!-- Projects -->
-					<!--section id="projects">
-						<div class="container">
+    <section id="Physical Reservoir Computing">
+        <div class="container" id="prc" style="margin-bottom: 4em;">
+            <h3 align="left">Physical Reservoir Computing [#PRC]</h3>
+            <p align="left"><b>Using physical systems as computational reservoirs.</b></p>
+            <div class="row">
+                <div class="col-6 col-12-mobile">
+                    <video controls class="image fit">
+                        <source src="videos/PHRESCO_Cambridge_downsized.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p align="center">Vehicular Reservoir Computing</p>
+                </div>
+            
+                <div class="col-6 col-12-mobile">
+                    <video controls class="image fit">
+                        <source src="videos/PRC_input_downsized.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p align="center">Pendulum Coupling Using Physical Reservoir Control</p>
+                </div>
+            </div>
+            <div id="fullPRCPublications" style="display: none;">
+                <h4 align="left">All [#PRC] Publications</h4>
+                <ul>
+                    <li align="left"><a href="https://doi.org/10.1016/j.neunet.2025.108263" <b>Yanjun Zhou, Fan Ye, <u>Kai-Fung Chu</u>, and Fumiya Iida, “Scalable Mobile Swarm Network for Reservoir Computing Using Gaussian Kernel Density Estimation,” <i>Neural Networks</i>, vol. 195, Mar. 2026. [#PRC] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1038/s44335-025-00033-5" <b><u>Kai-Fung Chu</u>, Fan Ye, Arsen Abdulali, and Fumiya Iida, “Enhancing Traffic Dynamics-Induced Machine Learning Through Heterogeneous Driving Policies,” <i>npj Unconventional Computing</i>, vol. 2, no. 18, Jul. 2025. [#PRC] [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1038/s44172-025-00418-1" <b>Fan Ye, Arsen Abdulali, <u>Kai-Fung Chu</u>, Xiaoping Zhang, and Fumiya Iida, “Reservoir Controllers Design Through Robot-Reservoir Timescale Alignment,” <i>Communications Engineering</i>, vol. 4, no. 81, Apr. 2025. [#PRC] [#RL&C]</b></a></li>
+                    <li align="left"><b><u>Kai-Fung Chu</u>, Fan Ye, Xiang Wang, Kohei Nakajima, and Fumiya Iida, “Elementary Characteristics and Energy Transport in Physical Reservoir Computing,” 5th International Conference on Embodied Intelligence, Dec. 2025. [#PRC]</b></li>
+                    <li align="left"><b>Fan Ye, Timothy Bonner, Arsen Abdulali, <u>Kai-Fung Chu</u>, and Fumiya Iida, “Reservoir Computing for Torque-Restricted Pendulum Control”, Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, Hangzhou, China, Oct. 2025. [#PRC] [#RL&C]</b></li>
+                </ul>
+            </div>
+            <div id="selectedPRCPublications">
+                <h4 align="left">Selected [#PRC] Publications</h4>
+                <ul>
+                    <li align="left"><a href="https://doi.org/10.1038/s44335-025-00033-5" <b><u>Kai-Fung Chu</u>, Fan Ye, Arsen Abdulali, and Fumiya Iida, “Enhancing Traffic Dynamics-Induced Machine Learning Through Heterogeneous Driving Policies,” <i>npj Unconventional Computing</i>, vol. 2, no. 18, Jul. 2025. [#PRC] [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1038/s44172-025-00418-1" <b>Fan Ye, Arsen Abdulali, <u>Kai-Fung Chu</u>, Xiaoping Zhang, and Fumiya Iida, “Reservoir Controllers Design Through Robot-Reservoir Timescale Alignment,” <i>Communications Engineering</i>, vol. 4, no. 81, Apr. 2025. [#PRC] [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1016/j.neunet.2025.108263" <b>Yanjun Zhou, Fan Ye, <u>Kai-Fung Chu</u>, and Fumiya Iida, “Scalable Mobile Swarm Network for Reservoir Computing Using Gaussian Kernel Density Estimation,” <i>Neural Networks</i>, vol. 195, Mar. 2026. [#PRC] [#MAS]</b></a></li>
+                </ul>
+            </div>
+            <button id="togglePRCButton" style="float: left; margin-bottom: 10px;" onclick="togglePRCPublications()">Show Selected [#PRC] Publications</button>
+            <script>
+            function togglePRCPublications() {
+                const fullPRCList = document.getElementById("fullPRCPublications");
+                const selectedPRCList = document.getElementById("selectedPRCPublications");
+                const togglePRCButton = document.getElementById("togglePRCButton");
+        
+                if (selectedPRCList.style.display === "none") {
+                    fullPRCList.style.display = "none";
+                    selectedPRCList.style.display = "block";
+                    togglePRCButton.textContent = "Show All [#PRC] Publications";
+                } else {
+                    fullPRCList.style.display = "block";
+                    selectedPRCList.style.display = "none";
+                    togglePRCButton.textContent = "Show Selecated [#PRC] Publications";
+                }
+            }
+            </script>
+        </div>
+    </section>
 
-							<header>
-								<h2 align="left">Projects</h2>
-							</header>
+    <!-- Publications -->
+    <section id="publications">
+        <div class="container">
 
-							<p></p>
+            <header>
+                <h2 align="left">Publications</h2>
+            </header>
+            <p align="left"><b>See Google Scholar page for most updated list</b></p>
+            <!-- Toggle Button -->
+            <button id="toggleButton" style="float: left; margin-bottom: 10px;" onclick="togglePublications()">Show Selected Publications</button>
+            <div style="clear: both;"></div>
 
-						</div>
-					</section-->
+            <div id="fullPublications" class="publication-list" style="display: none;">
+                <h3 align="left">Journals</h3>
+                <ol type = "1">
+                    <li align="left"><a href="https://doi.org/10.1016/j.neunet.2025.108263" <b>Yanjun Zhou, Fan Ye, <u>Kai-Fung Chu</u>, and Fumiya Iida, “Scalable Mobile Swarm Network for Reservoir Computing Using Gaussian Kernel Density Estimation,” <i>Neural Networks</i>, vol. 195, Mar. 2026. [#PRC] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1016/j.asoc.2025.113624" <b>Yue Xie, <u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Fumiya Iida, “A Multi-Objective Evolutionary Algorithm with Constraint-Compliant Initialization for Energy Transport and Urban Logistics in Electric Vehicle Routing,” <i>Applied Soft Computing</i>, vol. 183, Nov. 2025. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1038/s44335-025-00033-5" <b><u>Kai-Fung Chu</u>, Fan Ye, Arsen Abdulali, and Fumiya Iida, “Enhancing Traffic Dynamics-Induced Machine Learning Through Heterogeneous Driving Policies,” <i>npj Unconventional Computing</i>, vol. 2, no. 18, Jul. 2025. [#PRC] [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/JIOT.2025.3538796" <b><u>Kai-Fung Chu</u>, Tianlun Chen, Yue Xie, Albert Y.S. Lam, Yue Song, and Fumiya Iida, “Collaborative Routing and Charging/Discharging Scheduling of Electric Autonomous Vehicles in Coupled Power-Traffic Networks: A Multi-Objective Approach,” <i>IEEE Internet of Things Journal</i>, vol. 12, no. 11, Jun. 2025. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1038/s44172-025-00418-1" <b>Fan Ye, Arsen Abdulali, <u>Kai-Fung Chu</u>, Xiaoping Zhang, and Fumiya Iida, “Reservoir Controllers Design Through Robot-Reservoir Timescale Alignment,” <i>Communications Engineering</i>, vol. 4, no. 81, Apr. 2025. [#PRC] [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/MITS.2024.3427655" <b><u>Kai-Fung Chu</u>, Haiyue Yuan, Jinsheng Yuan, Weisi Guo, Nazmiye Ozkan, and Shujun Li, “A Survey of AI-Related Cyber Security Risks and Countermeasures in Mobility-as-a-Service”, <i>IEEE Intelligent Transportation Systems Magazine</i>, vol. 16, no. 6, pp. 37-55, Nov.-Dec. 2024. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1016/j.neunet.2024.106695" <b>Chenchen Fan, <u>Kai-Fung Chu</u>, Xiaomei Wang, Ka-Wai Kwok, and Fumiya Iida, “State Transition Learning with Limited Data for Safe Control of Switched Nonlinear Systems,” <i>Neural Networks</i>, vol. 180, Dec. 2024. [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TDSC.2024.3379283" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Multi-agent Reinforcement Learning-based Passenger Spoofing Attack on Mobility-as-a-Service,” <i>IEEE Transactions on Dependable and Secure Computing</i>, vol. 21, no. 6, pp. 5565-5581, Nov.-Dec. 2024. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2024.3463189" <b>Yang Chen, Saba Al-Rubaye, Antonios Tsourdos, <u>Kai-Fung Chu</u>, Zhuangkun Wei, Lawrence Baker, and Colin Gillingham, “Federated Deep Reinforcement Learning based Intelligent Surface Configuration in 6G Secure Airport Networks,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, Oct. 2024. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TNSE.2024.3410694" <b>Mengbang Zou, Weisi Guo, and <u>Kai-Fung Chu</u>, “Rewiring Complex Networks to Achieve Cluster Synchronization using Graph Convolution Networks with Reinforcement Learning,” <i>IEEE Transactions on Network Science and Engineering</i>, vol. 11, no. 5, pp. 4293-4304, Sept.-Oct. 2024. [#MAS] [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TCYB.2023.3286416" <b>Chenchen Fan, James Lam, <u>Kai-Fung Chu</u>, Xiujuan Lu, and Ka-Wai Kwok, “Output Reachable Set-based Leader-following Consensus of Positive Agents over Switching Networks,” <i>IEEE Transactions on Cybernetics</i> vol. 54, no. 7, pp. 3918-3930, Jul. 2024. [#MAS] [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2023.3317358" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Privacy-Preserving Federated Deep Reinforcement Learning for Mobility-as-a-Service,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 25, no. 2, pp. 1882-1896, Feb. 2024. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1007/s00521-023-08733-4" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Deep Reinforcement Learning of Passenger Behavior in Multimodal Journey Planning with Proportional Fairness,” <i>Neural Computing and Applications</i>, vol. 35, pp. 20221-20240, Sep. 2023. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ACCESS.2023.3294345" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, Ka Ho Tsoi, Zhiran Huang, and Becky P.Y. Loo, “Deep Encoder Cross Network for Estimated Time of Arrival,” <i>IEEE Access</i>, vol. 11, pp. 76095–76107, Jul. 2023. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2021.3067057" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Traffic Signal Control Using End-to-End Off-policy Deep Reinforcement Learning,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 23, no. 7, pp. 7184-7195, Jul. 2022. [#RL&C] [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2021.3067044" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Joint Rebalancing and Vehicle-to-Grid Coordination for Autonomous Vehicle Public Transportation System,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 23, no. 7, pp. 7156-7169, Jul. 2022. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TNNLS.2020.3022950" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, Chenchen Fan, and Victor O.K. Li, “Disturbance-Aware Neuro-Optimal System Control Using Generative Adversarial Control Networks,” <i>IEEE Transactions on Neural Networks and Learning Systems</i>, vol. 32, no. 10, pp. 4565-4576, Oct. 2021. [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2019.2924971" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Deep Multi-Scale Convolutional LSTM Network for Travel Demand and Origin-Destination Predictions,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 21, no. 8, pp. 3219-3232, Aug. 2020. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2019.2920674" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Dynamic Lane Reversal Routing and Scheduling for Connected Autonomous Vehicles: Formulation and Distributed Algorithm,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 21, no. 6, pp. 2557-2570, Jun. 2020. [#ITS] [#MAS]</b></a></li>
+                </ol>
+                <h3 align="left">Conference Proceedings</h3>
+                <ol type = "1">
+                    <li align="left"><b><u>Kai-Fung Chu</u>, “Towards Multi-Layer Intelligent Future Roads for Mixed Autonomy,” Future Roads Conference, Cambridge, UK, Jul. 2026. [#ITS]</b></li>
+                    <li align="left"><b>Yi Zhang, Omar Faris, Chapa Sirithunge, <u>Kai-Fung Chu</u>, Fumiya Iida, and Fulvio Forni, “Distributed Virtual Model Control for Scalable Human-Robot Collaboration in Shared Workspace,” International Conference on Robotics and Automation, Vienna, Austria, Jun. 2026. [#RL&C] [#MAS]</b></li>
+                    <li align="left"><b><u>Kai-Fung Chu</u>, Fan Ye, Xiang Wang, Kohei Nakajima, and Fumiya Iida, “Elementary Characteristics and Energy Transport in Physical Reservoir Computing,” 5th International Conference on Embodied Intelligence, Dec. 2025. [#PRC]</b></li>
+                    <li align="left"><b>Mingqi Yuan, Huijiang Wang, <u>Kai-Fung Chu</u>, Fumiya Iida, Bo Li, and Wenjun Zeng, “Hierarchical Procedural Framework for Low-latency Robot-Assisted Hand-Object Interaction,” IEEE International Conference on Systems, Man, and Cybernetics, Vienna, Austria, Oct. 2025. [#RL&C]</b></li>
+                    <li align="left"><b>Fan Ye, Timothy Bonner, Arsen Abdulali, <u>Kai-Fung Chu</u>, and Fumiya Iida, “Reservoir Computing for Torque-Restricted Pendulum Control”, Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems, Hangzhou, China, Oct. 2025. [#PRC] [#RL&C]</b></li>
+                    <li align="left"><b><u>Kai-Fung Chu</u>, Yue Xie, Albert Y.S. Lam, and Fumiya Iida, “Mixed-Autonomy Traffic and Wireless Charging Problem for Autonomous Electric Vehicles Using Reinforcement Learning”, Proceedings of the 9th EAI International Conference on Smart Grid and Innovative Frontiers in Telecommunications, Hong Kong, China, Dec. 2024. [#ITS]</b></li>
+                    <li align="left"><a href="https://doi.org/10.1109/DDCLS61622.2024.10606772" <b>Xiaoping Zhang, Xiangpeng Meng, <u>Kai-Fung Chu</u>, and Li Wang, “A Bottom-up Human Pose Estimation Correction Method Based on Object Detection,” <i>Proceedings of the IEEE 13th Data Driven Control and Learning Systems Conference</i>, Kaifeng, China, May 2024. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1088/1757-899X/1321/1/012010" <b><u>Kai-Fung Chu</u>, Fan Ye, and Fumiya Iida, “Embodied Intelligence in Transportation Systems: Road Network Computing,” Proceedings of the 3rd International Conference on Embodied Intelligence, Cambridge, United Kingdom, 2024. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ARSO60199.2024.10557825" <b><u>Kai-Fung Chu</u> Chenchen Fan, and Fumiya Iida, “Navigating Mixed Traffic: Current State and Future Challenges in Integrating Autonomous and Human-Driven Vehicles,” <i>Proceedings of the 2024 IEEE International Conference on Advanced Robotics and Its Social Impacts (ARSO)</i>, Hong Kong, China, May 2024. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ITSC57777.2023.10422567" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Passenger Spoofing Attack for Artificial Intelligence-based Mobility-as-a-Service,” <i>Proceedings of the 2023 IEEE 26th International Conference on Intelligent Transportation Systems (IEEE ITSC 2023)</i>, Bilbao, Bizkaia, Spain, September 2023. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ITSC57777.2023.10422279" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Federated Reinforcement Learning for Consumers Privacy Protection in Mobility-as-a-Service,” <i>Proceedings of the 2023 IEEE 26th International Conference on Intelligent Transportation Systems (IEEE ITSC 2023)</i>, Bilbao, Bizkaia, Spain, September 2023. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/VTC2023-Spring57618.2023.10199505" <b><u>Kai-Fung Chu</u>, Tianlun Chen, Albert Y.S. Lam, and Yue Song, " Collaborative Routing and Charging/Discharging Scheduling of Electric Autonomous Vehicles in Coupled Power-Traffic Networks," <i>Proceedings of the 2023 IEEE 97th Vehicular Technology Conference</i>, Florence, Italy, June 2023. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/PESGM41954.2020.9281414" <b>Tianlun Chen, <u>Kai-Fung Chu</u>, Albert Y.S. Lam, David J. Hill, Victor O.K. Li, "Electric Autonomous Vehicle Charging and Parking Coordination for Vehicle-to-Grid Voltage Regulation with Renewable Energy," <i>Proceedings of the 2020 IEEE PES General Meeting</i>, Montreal, Quebec, Canada, August 2020. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ITSC.2019.8917286" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, Becky P.Y. Loo, and Victor O.K. Li, “Public Transport Waiting Time Estimation Using Semi-Supervised Graph Convolutional Networks,” <i>Proceedings of the 22nd IEEE International Conference on Intelligent Transportation Systems (IEEE ITSC 2019)</i>, Auckland, New Zealand, October 2019. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ITSC.2018.8569427" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Travel Demand Prediction using Deep Multi-Scale Convolutional LSTM Network,” <i>Proceedings of the 21st IEEE International Conference on Intelligent Transportation Systems (IEEE ITSC 2018)</i>, Maui, HI, USA, November 2018. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/ISC2.2017.8090813" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Dynamic Lane Reversal Routing and Scheduling for Connected Autonomous Vehicles,” <i>Proceedings of the 3rd IEEE International Smart Cities Conference (IEEE ISC2 2017)</i>, Wuxi, China, September 2017. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/VTCSpring.2017.8108280" <b><u>Kai-Fung Chu</u>, Elmer R Magsino, Ivan Wang-Hei Ho, and Chi-Kin Chau, "Index Coding of Point Cloud-based Road Map Data for Autonomous Driving," <i>Proceedings of the 85th IEEE Vehicular Technology Conference (IEEE VTC 2017 Spring)</i>, Sydney, NSW, June 2017. [#ITS]</b></a></li>
+                </ol>
+            </div>
 
-				<!-- Professional Services -->
-					<section id="services">
-						<div class="container">
+            <!-- Selected Publications -->
+            <div id="selectedPublications" class="publication-list">
+                <h3 align="left">Selected Publications</h3>
+                <ol>
+                    <li align="left"><a href="https://doi.org/10.1038/s44335-025-00033-5" <b><u>Kai-Fung Chu</u>, Fan Ye, Arsen Abdulali, and Fumiya Iida, “Enhancing Traffic Dynamics-Induced Machine Learning Through Heterogeneous Driving Policies,” <i>npj Unconventional Computing</i>, vol. 2, no. 18, Jul. 2025. [#PRC] [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2019.2924971" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Deep Multi-Scale Convolutional LSTM Network for Travel Demand and Origin-Destination Predictions,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 21, no. 8, pp. 3219-3232, August 2020. [#ITS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TNNLS.2020.3022950" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, Chenchen Fan, and Victor O.K. Li, “Disturbance-Aware Neuro-Optimal System Control Using Generative Adversarial Control Networks,” <i>IEEE Transactions on Neural Networks and Learning Systems</i>, vol. 32, no. 10, pp. 4565-4576, Oct. 2021. [#RL&C]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2023.3317358" <b><u>Kai-Fung Chu</u> and Weisi Guo, “Privacy-Preserving Federated Deep Reinforcement Learning for Mobility-as-a-Service,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 25, no. 2, pp. 1882-1896, Feb. 2024. [#ITS] [#MAS]</b></a></li>
+                    <li align="left"><a href="https://doi.org/10.1109/TITS.2021.3067057" <b><u>Kai-Fung Chu</u>, Albert Y.S. Lam, and Victor O.K. Li, “Traffic Signal Control Using End-to-End Off-policy Deep Reinforcement Learning,” <i>IEEE Transactions on Intelligent Transportation Systems</i>, vol. 23, no. 7, pp. 7184-7195, Jul. 2022. [#ITS] [#RL&C]</b></a></li>
+                </ol>
+            </div>
+        </div>
+    </section>
 
-							<header>
-								<h2 align="left">Professional Services</h2>
-							</header>
+    <script>
+    function togglePublications() {
+        const fullList = document.getElementById("fullPublications");
+        const selectedList = document.getElementById("selectedPublications");
+        const toggleButton = document.getElementById("toggleButton");
 
-                            <h3 align="left">Associate and Guest Editor</h3>
-                                <li align="left"><b>Journal of Intelligent & Robotic Systems, Special Issue on Multi-Robot Autonomous Collaborative Control and Detection Technology</b></li>
-                                <li align="left"><b>Wireless Networks, Special Issue on Intelligent Communication Technologies for Smart Cities</b></li>
-                                <li align="left"><b>EAI Endorsed Transactions on Energy Web</b></li>
-                            
-                            <h3 align="left">Reviewer</h3>
-                            <!--h4 align="left">More than 30 international journals and conferences with over 150 articles in total, including</h4-->
-                                <li align="left"><b>Nature Communications</b></li>
-                                <li align="left"><b>Proceedings of the IEEE</b></li>
-                                <!--li align="left"><b>IEEE Access</b></li>
-                                <!--li align="left"><b>IEEE Open Journal of Vehicular Technology</b></li-->
-                                <!--li align="left"><b>IEEE Transactions on Artificial Intelligence</b></li-->
-                                <!--li align="left"><b>IEEE Transactions on Big Data</b></li-->
-                                <!--li align="left"><b>IEEE Transactions on Evolutionary Computation</b></li-->
-                                <!--li align="left"><b>IEEE Transactions on Industrial Electronics</b></li-->
-                                <li align="left"><b>IEEE Transactions on Intelligent Transportation Systems</b></li>
-                                <!--li align="left"><b>IEEE Transactions on Intelligent Vehicles</b></li-->
-                                <li align="left"><b>IEEE Transactions on Neural Networks and Learning Systems</b></li>
-                                <!--li align="left"><b>IEEE Transactions on Vehicular Technology</b></li-->
-                                <!--li align="left"><b>ITU J-FET on Vehicular networks</b></li-->
-                                <!--li align="left"><b>Journal of Advanced Transportation</b></li-->
-                                <!--li align="left"><b>Journal of Transport Geography</b></li-->
-                                <!--li align="left"><b>Scientific Reports</b></li-->
-                                <!--li align="left"><b>Travel Behaviour and Society</b></li-->
-                                <!--li align="left"><b>IEEE International Conference on Computer Communications, 2020</b></li-->
-                                <!--li align="left"><b>IEEE International Conference on Intelligent Transportation Systems (ITSC), 2018, 2021, 2022</b></li-->
-                                <!--li align="left"><b>Towards Autonomous Robotic Systems, 2023</b></li-->
-                                <li align="left"><b>and others</b></li>
+        if (selectedList.style.display === "none") {
+            fullList.style.display = "none";
+            selectedList.style.display = "block";
+            toggleButton.textContent = "Show All Publications";
+        } else {
+            fullList.style.display = "block";
+            selectedList.style.display = "none";
+            toggleButton.textContent = "Show Selected Publications";
+        }
+    }
+    </script>
 
-                            <h3 align="left">Conference and Workshops</h3>
-                                <li align="left"><b>Organizer, Future Intelligence Talk, 2024</b></li>
-                                <li align="left"><b>Organizing Committee, 5th International Conference on Embodied Intelligence, 2025</b></li>
-                                <li align="left"><b>Technical Program Committee, EAI SmartGIFT 2024</b></li>
-                                <li align="left"><b>Organizing Committee, 4th International Conference on Embodied Intelligence, 2024</b></li>
-                                <li align="left"><b>Organizing Committee, 24th Towards Autonomous Robotics Systems, 2023</b></li>
-                                <li align="left"><b>Organizing Committee, Special Session on Mobility-as-a-Service: managing cyber security risks for a seamless smart connectivity at IEEE 26th International Conference on Intelligent Transportation Systems, 2023</b></li>
-                                <li align="left"><b>Session chair, Smart transportation session at 3rd IEEE International Smart Cities Conference,  2018</b></li>
-                                <li align="left"><b>Organizing Committee, International Conference on Smart Mobility and Logistics in Future Cities, 2018</b></li>
+    <!-- Teaching -->
+    <section id="teaching">
+        <div class="container">
+            <header>
+                <h2 align="left">Teaching</h2>
+            </header>
+            <h3 align="left">University of Cambridge</h3>
+                <li align="left"><b>Co-Lecturer and Lab Demonstrator, Introduction to Robotics (4M20), Mich 2025</b></li>
+                <li align="left"><b>Supervisor and Teaching Assistant, Advanced Robotics (4M25), Lent 2025</b></li>
+                <li align="left"><b>Teaching Assistant and Lab Demonstrator, Integrated Design Project (IDP), Mich 2023, Lent & Mich 2024</b></li>
+            <h3 align="left">The Hong Kong Polytechnic University</h3>
+                <li align="left"><b>Subject Lecturer, Machine Learning and Applications in Finance (COMP5564), Spring 2023</b></li>
+            <h3 align="left">The University of Hong Kong</h3>
+                <li align="left"><b>Teaching Assistant and Lab Demonstrator, Everyday Computing and the Internet (CCST9003), Summer & Fall 2018, and Fall 2019</b></li>
+                <li align="left"><b>Teaching Assistant and Lab Demonstrator, Introduction to Electrical and Electronic Engineering (ELEC1203), Fall 2017</b></li>
+        </div>
+    </section>
 
-						</div>
-					</section>
+    <!-- Professional Services -->
+    <section id="services">
+        <div class="container">
 
-				<!-- Experience -->
-					<section id="experience">
-						<div class="container">
+            <header>
+                <h2 align="left">Professional Services</h2>
+            </header>
 
-							<header>
-								<h2 align="left">Experience</h2>
-							</header>
+            <h3 align="left">Associate and Guest Editor</h3>
+                <li align="left"><b>Journal of Intelligent & Robotic Systems, Special Issue on Multi-Robot Autonomous Collaborative Control and Detection Technology</b></li>
+                <li align="left"><b>Wireless Networks, Special Issue on Intelligent Communication Technologies for Smart Cities</b></li>
+                <li align="left"><b>EAI Endorsed Transactions on Energy Web</b></li>
+            
+            <h3 align="left">Reviewer</h3>
+                <p align="left"><b>ACM TIOT, ACM TOSEM, IEEE Access, IEEE OJVT, IEEE T-AI, IEEE T-BD, IEEE T-ETCI, IEEE T-EVC, IEEE T-IE, IEEE IoT-J, IEEE T-ITS, IEEE T-IV, IEEE T-NNLS, IEEE T-NSM, IEEE T-SG, IEEE T-TE, IEEE T-VT, IET ITS, IJIS, ITU J-FET on Vehicular networks, J. Advanced Transportation, J. Scheduling, J. Transport Geography, Nature Communications, Proceedings of the IEEE, RA-L, Scientific Reports, Transportmetrica A Transport Science, Transportmetrica B Transport Dynamics, Travel Behaviour and Society</b>b></p>
+                <p align="left"><b>AAAI2025, CDC2019, DASA2020, EAI SmartGIFT 2024, EECon2024, EI2023, EI2025, ICRA2024, INFOCOM2020, IROS2025, IROS2026, ITSC2024, ITSC2022, ITSC2021, ITSC2018, TAROS2023</b>b></p>
+            <!--h4 align="left">More than 30 international journals and conferences with over 150 articles in total, including</h4-->
+                <!--li align="left"><b>Nature Communications</b></li-->
+                <!--li align="left"><b>Proceedings of the IEEE</b></li-->
+                <!--li align="left"><b>IEEE Access</b></li>
+                <!--li align="left"><b>IEEE Open Journal of Vehicular Technology</b></li-->
+                <!--li align="left"><b>IEEE Transactions on Artificial Intelligence</b></li-->
+                <!--li align="left"><b>IEEE Transactions on Big Data</b></li-->
+                <!--li align="left"><b>IEEE Transactions on Evolutionary Computation</b></li-->
+                <!--li align="left"><b>IEEE Transactions on Industrial Electronics</b></li-->
+                <!--li align="left"><b>IEEE Transactions on Intelligent Transportation Systems</b></li-->
+                <!--li align="left"><b>IEEE Transactions on Intelligent Vehicles</b></li-->
+                <!--li align="left"><b>IEEE Transactions on Neural Networks and Learning Systems</b></li-->
+                <!--li align="left"><b>IEEE Transactions on Vehicular Technology</b></li-->
+                <!--li align="left"><b>ITU J-FET on Vehicular networks</b></li-->
+                <!--li align="left"><b>Journal of Advanced Transportation</b></li-->
+                <!--li align="left"><b>Journal of Transport Geography</b></li-->
+                <!--li align="left"><b>Scientific Reports</b></li-->
+                <!--li align="left"><b>Travel Behaviour and Society</b></li-->
+                <!--li align="left"><b>IEEE International Conference on Computer Communications, 2020</b></li-->
+                <!--li align="left"><b>IEEE International Conference on Intelligent Transportation Systems (ITSC), 2018, 2021, 2022</b></li-->
+                <!--li align="left"><b>Towards Autonomous Robotic Systems, 2023</b></li-->
+                <!--li align="left"><b>and others</b></li-->
 
-							<li align="left"><b>2022–2023, Research Assistant Professor, Department of Computing, The Hong Kong Polytechnic University</b></li>
-                            <li align="left"><b>2022–2022, Research Fellow, School of Aerospace, Transport and Manufacturing, Cranfield University</b></li>
-                            <li align="left"><b>2020–2022, Senior Research Engineer, BaseBit Technologies Company Limited</b></li>
-                            <li align="left"><b>2015–2016, Research Assistant, Department of Electronic and Information Engineering, Hong Kong Polytechnic University</b></li>
-                            <li align="left"><b>2013–2016, Project Engineer, Electronic Theater Control Asia Limited</b></li>
-                            <li align="left"><b>2012–2012, Intern, Office of the Communication Authority, The Government of the Hong Kong Special Administrative Region</b></li>
+            <h3 align="left">Conference and Workshops</h3>
+                <li align="left"><b>Organizing Committee, 6th International Conference on Embodied Intelligence, 2026</b></li>
+                <li align="left"><b>Organizer, Future Intelligence Talk, 2024</b></li>
+                <li align="left"><b>Organizing Committee, 5th International Conference on Embodied Intelligence, 2025</b></li>
+                <li align="left"><b>Technical Program Committee, EAI SmartGIFT 2024</b></li>
+                <li align="left"><b>Organizing Committee, 4th International Conference on Embodied Intelligence, 2024</b></li>
+                <li align="left"><b>Organizing Committee, 24th Towards Autonomous Robotics Systems, 2023</b></li>
+                <li align="left"><b>Organizing Committee, Special Session on Mobility-as-a-Service: managing cyber security risks for a seamless smart connectivity at IEEE 26th International Conference on Intelligent Transportation Systems, 2023</b></li>
+                <li align="left"><b>Session chair, Smart transportation session at 3rd IEEE International Smart Cities Conference,  2018</b></li>
+                <li align="left"><b>Organizing Committee, International Conference on Smart Mobility and Logistics in Future Cities, 2018</b></li>
 
-						</div>
-					</section>
+        </div>
+    </section>
 
-				<!-- Awards -->
-					<section id="awards">
-						<div class="container">
+    <!-- Experience -->
+    <section id="experience">
+        <div class="container">
 
-							<header>
-								<h2 align="left">Awards and Scholarship</h2>
-							</header>
+            <header>
+                <h2 align="left">Experience</h2>
+            </header>
 
-							<li align="left"><b>2023-2026, Marie Skłodowska-Curie Fellowship, Marie Skłodowska-Curie Actions</b></li>
-                            <li align="left"><b>2021/22, Outstanding Young Alumni Award of PolyU Department of Electronic and Information Engineering, PolyU EIE</b></li>
-                            <li align="left"><b>2017/18, Champion of the IEEE (HK) Computational Intelligence Chapter - Graduate Student Paper Competition, IEEE (HK)</b></li>
-                            <li align="left"><b>2018, 2nd runners up of HKUEAA Enginnovate 2018, HKU Engineering Alumni Association</b></li>
-                            <li align="left"><b>2016-2020, Postgraduate Scholarships, HKU</b></li>
-                            <li align="left"><b>2016/17, Chiang Chen Overseas Fellowship, Chang Chen Industrial Charity Foundation (Hong Kong) LTD.</b></li>
-                            <li align="left"><b>2015, MSc Studentship Project Scheme, PolyU</b></li>
-                            <li align="left"><b>2016, Scholarships for Postgraduate Scheme in Engineering Type II, PolyU</b></li>
-                            <li align="left"><b>2015 and 2016, Scholarships for Postgraduate Scheme in Engineering Type I, PolyU</b></li>
-                            <li align="left"><b>2015 and 2016, EIE Alumni Scholarship, PolyU</b></li>
-                            <li align="left"><b>2012, Chiap Hua Cheng’s Foundation Scholarship, PolyU</b></li>
-                            <li align="left"><b>2010/11, 2011/2012 and 2012/2013, The Dean’s Honours List, PolyU</b></li>
-                            <li align="left"><b>2011/2012, Best GPA award, PolyU</b></li>
-                            <li align="left"><b>2010 Fall, 2011 Fall and 2012 Spring, Best Semester GPA award, PolyU</b></li>
+            <li align="left"><b>2022–2023, Research Assistant Professor, Department of Computing, The Hong Kong Polytechnic University</b></li>
+            <li align="left"><b>2022–2022, Research Fellow, School of Aerospace, Transport and Manufacturing, Cranfield University</b></li>
+            <li align="left"><b>2020–2022, Senior Research Engineer, BaseBit Technologies Company Limited</b></li>
+            <li align="left"><b>2015–2016, Research Assistant, Department of Electronic and Information Engineering, Hong Kong Polytechnic University</b></li>
+            <li align="left"><b>2013–2016, Project Engineer, Electronic Theater Control Asia Limited</b></li>
+            <li align="left"><b>2012–2012, Intern, Office of the Communication Authority, The Government of the Hong Kong Special Administrative Region</b></li>
 
-						</div>
-					</section>
+        </div>
+    </section>
 
-			</div>
+    <!-- Awards -->
+    <section id="awards">
+        <div class="container">
 
-		<!-- Footer -->
-			<div id="footer">
+            <header>
+                <h2 align="left">Awards and Scholarship</h2>
+            </header>
 
-				<!-- Copyright -->
-					<ul class="copyright">
-						<!--li>&copy; 2022 Kai-Fung Chu</li-->
-                        <li>Email: kfc35 [AT] cam.ac.uk; kfchu [AT] connect.hku.hk</li>
-					</ul>
+            <li align="left"><b>2023-2026, Marie Skłodowska-Curie Fellowship, Marie Skłodowska-Curie Actions</b></li>
+            <li align="left"><b>2021/22, Outstanding Young Alumni Award of PolyU Department of Electronic and Information Engineering, PolyU EIE</b></li>
+            <li align="left"><b>2017/18, Champion of the IEEE (HK) Computational Intelligence Chapter - Graduate Student Paper Competition, IEEE (HK)</b></li>
+            <li align="left"><b>2018, 2nd runners up of HKUEAA Enginnovate 2018, HKU Engineering Alumni Association</b></li>
+            <li align="left"><b>2016-2020, Postgraduate Scholarships, HKU</b></li>
+            <li align="left"><b>2016/17, Chiang Chen Overseas Fellowship, Chang Chen Industrial Charity Foundation (Hong Kong) LTD.</b></li>
+            <li align="left"><b>2015, MSc Studentship Project Scheme, PolyU</b></li>
+            <li align="left"><b>2016, Scholarships for Postgraduate Scheme in Engineering Type II, PolyU</b></li>
+            <li align="left"><b>2015 and 2016, Scholarships for Postgraduate Scheme in Engineering Type I, PolyU</b></li>
+            <li align="left"><b>2015 and 2016, EIE Alumni Scholarship, PolyU</b></li>
+            <li align="left"><b>2012, Chiap Hua Cheng’s Foundation Scholarship, PolyU</b></li>
+            <li align="left"><b>2010/11, 2011/2012 and 2012/2013, The Dean’s Honours List, PolyU</b></li>
+            <li align="left"><b>2011/2012, Best GPA award, PolyU</b></li>
+            <li align="left"><b>2010 Fall, 2011 Fall and 2012 Spring, Best Semester GPA award, PolyU</b></li>
 
-			</div>
+        </div>
+    </section>
+    </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <!-- Footer -->
+    <div id="footer">
+        <!-- Copyright -->
+        <ul class="copyright">
+            <!--li>&copy; 2022 Kai-Fung Chu</li-->
+            <li>Email: kfc35 [AT] cam.ac.uk; kfchu [AT] connect.hku.hk</li>
+        </ul>
+    </div>
 
-	</body>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
 </html>
